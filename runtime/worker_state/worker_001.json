@@ -1,0 +1,915 @@
+{
+  "worker_id": 1,
+  "tasks_processed": 6400,
+  "last_task": {
+    "task_id": "L0_backward_1_1",
+    "layer_id": 0,
+    "phase": "backward",
+    "op_type": "matmul_transpose_right",
+    "block_row": 1,
+    "block_col": 1,
+    "status": "ok"
+  },
+  "history": [
+    {
+      "task_id": "L0_backward_0_0",
+      "layer_id": 0,
+      "phase": "backward",
+      "op_type": "matmul_transpose_left",
+      "block_row": 0,
+      "block_col": 0,
+      "status": "ok"
+    },
+    {
+      "task_id": "L0_backward_1_1",
+      "layer_id": 0,
+      "phase": "backward",
+      "op_type": "matmul_transpose_left",
+      "block_row": 1,
+      "block_col": 1,
+      "status": "ok"
+    },
+    {
+      "task_id": "L0_backward_0_0",
+      "layer_id": 0,
+      "phase": "backward",
+      "op_type": "matmul_transpose_right",
+      "block_row": 0,
+      "block_col": 0,
+      "status": "ok"
+    },
+    {
+      "task_id": "L0_backward_1_1",
+      "layer_id": 0,
+      "phase": "backward",
+      "op_type": "matmul_transpose_right",
+      "block_row": 1,
+      "block_col": 1,
+      "status": "ok"
+    },
+    {
+      "task_id": "L0_forward_1_1",
+      "layer_id": 0,
+      "phase": "forward",
+      "op_type": "matmul",
+      "block_row": 1,
+      "block_col": 1,
+      "status": "ok"
+    },
+    {
+      "task_id": "L0_forward_0_0",
+      "layer_id": 0,
+      "phase": "forward",
+      "op_type": "matmul",
+      "block_row": 0,
+      "block_col": 0,
+      "status": "ok"
+    },
+    {
+      "task_id": "L1_forward_0_0",
+      "layer_id": 1,
+      "phase": "forward",
+      "op_type": "matmul",
+      "block_row": 0,
+      "block_col": 0,
+      "status": "ok"
+    },
+    {
+      "task_id": "L1_forward_1_1",
+      "layer_id": 1,
+      "phase": "forward",
+      "op_type": "matmul",
+      "block_row": 1,
+      "block_col": 1,
+      "status": "ok"
+    },
+    {
+      "task_id": "L2_forward_0_0",
+      "layer_id": 2,
+      "phase": "forward",
+      "op_type": "matmul",
+      "block_row": 0,
+      "block_col": 0,
+      "status": "ok"
+    },
+    {
+      "task_id": "L2_backward_0_0",
+      "layer_id": 2,
+      "phase": "backward",
+      "op_type": "matmul_transpose_left",
+      "block_row": 0,
+      "block_col": 0,
+      "status": "ok"
+    },
+    {
+      "task_id": "L2_backward_1_1",
+      "layer_id": 2,
+      "phase": "backward",
+      "op_type": "matmul_transpose_right",
+      "block_row": 1,
+      "block_col": 1,
+      "status": "ok"
+    },
+    {
+      "task_id": "L2_backward_0_0",
+      "layer_id": 2,
+      "phase": "backward",
+      "op_type": "matmul_transpose_right",
+      "block_row": 0,
+      "block_col": 0,
+      "status": "ok"
+    },
+    {
+      "task_id": "L1_backward_0_0",
+      "layer_id": 1,
+      "phase": "backward",
+      "op_type": "matmul_transpose_left",
+      "block_row": 0,
+      "block_col": 0,
+      "status": "ok"
+    },
+    {
+      "task_id": "L1_backward_1_1",
+      "layer_id": 1,
+      "phase": "backward",
+      "op_type": "matmul_transpose_left",
+      "block_row": 1,
+      "block_col": 1,
+      "status": "ok"
+    },
+    {
+      "task_id": "L1_backward_0_0",
+      "layer_id": 1,
+      "phase": "backward",
+      "op_type": "matmul_transpose_right",
+      "block_row": 0,
+      "block_col": 0,
+      "status": "ok"
+    },
+    {
+      "task_id": "L1_backward_1_1",
+      "layer_id": 1,
+      "phase": "backward",
+      "op_type": "matmul_transpose_right",
+      "block_row": 1,
+      "block_col": 1,
+      "status": "ok"
+    },
+    {
+      "task_id": "L0_backward_0_0",
+      "layer_id": 0,
+      "phase": "backward",
+      "op_type": "matmul_transpose_left",
+      "block_row": 0,
+      "block_col": 0,
+      "status": "ok"
+    },
+    {
+      "task_id": "L0_backward_1_1",
+      "layer_id": 0,
+      "phase": "backward",
+      "op_type": "matmul_transpose_left",
+      "block_row": 1,
+      "block_col": 1,
+      "status": "ok"
+    },
+    {
+      "task_id": "L0_backward_1_1",
+      "layer_id": 0,
+      "phase": "backward",
+      "op_type": "matmul_transpose_right",
+      "block_row": 1,
+      "block_col": 1,
+      "status": "ok"
+    },
+    {
+      "task_id": "L0_backward_0_0",
+      "layer_id": 0,
+      "phase": "backward",
+      "op_type": "matmul_transpose_right",
+      "block_row": 0,
+      "block_col": 0,
+      "status": "ok"
+    },
+    {
+      "task_id": "L0_forward_0_0",
+      "layer_id": 0,
+      "phase": "forward",
+      "op_type": "matmul",
+      "block_row": 0,
+      "block_col": 0,
+      "status": "ok"
+    },
+    {
+      "task_id": "L0_forward_1_1",
+      "layer_id": 0,
+      "phase": "forward",
+      "op_type": "matmul",
+      "block_row": 1,
+      "block_col": 1,
+      "status": "ok"
+    },
+    {
+      "task_id": "L1_forward_0_0",
+      "layer_id": 1,
+      "phase": "forward",
+      "op_type": "matmul",
+      "block_row": 0,
+      "block_col": 0,
+      "status": "ok"
+    },
+    {
+      "task_id": "L1_forward_1_1",
+      "layer_id": 1,
+      "phase": "forward",
+      "op_type": "matmul",
+      "block_row": 1,
+      "block_col": 1,
+      "status": "ok"
+    },
+    {
+      "task_id": "L2_forward_0_0",
+      "layer_id": 2,
+      "phase": "forward",
+      "op_type": "matmul",
+      "block_row": 0,
+      "block_col": 0,
+      "status": "ok"
+    },
+    {
+      "task_id": "L2_backward_0_0",
+      "layer_id": 2,
+      "phase": "backward",
+      "op_type": "matmul_transpose_left",
+      "block_row": 0,
+      "block_col": 0,
+      "status": "ok"
+    },
+    {
+      "task_id": "L2_backward_0_0",
+      "layer_id": 2,
+      "phase": "backward",
+      "op_type": "matmul_transpose_right",
+      "block_row": 0,
+      "block_col": 0,
+      "status": "ok"
+    },
+    {
+      "task_id": "L2_backward_1_1",
+      "layer_id": 2,
+      "phase": "backward",
+      "op_type": "matmul_transpose_right",
+      "block_row": 1,
+      "block_col": 1,
+      "status": "ok"
+    },
+    {
+      "task_id": "L1_backward_0_0",
+      "layer_id": 1,
+      "phase": "backward",
+      "op_type": "matmul_transpose_left",
+      "block_row": 0,
+      "block_col": 0,
+      "status": "ok"
+    },
+    {
+      "task_id": "L1_backward_1_1",
+      "layer_id": 1,
+      "phase": "backward",
+      "op_type": "matmul_transpose_left",
+      "block_row": 1,
+      "block_col": 1,
+      "status": "ok"
+    },
+    {
+      "task_id": "L1_backward_1_1",
+      "layer_id": 1,
+      "phase": "backward",
+      "op_type": "matmul_transpose_right",
+      "block_row": 1,
+      "block_col": 1,
+      "status": "ok"
+    },
+    {
+      "task_id": "L1_backward_0_0",
+      "layer_id": 1,
+      "phase": "backward",
+      "op_type": "matmul_transpose_right",
+      "block_row": 0,
+      "block_col": 0,
+      "status": "ok"
+    },
+    {
+      "task_id": "L0_backward_0_0",
+      "layer_id": 0,
+      "phase": "backward",
+      "op_type": "matmul_transpose_left",
+      "block_row": 0,
+      "block_col": 0,
+      "status": "ok"
+    },
+    {
+      "task_id": "L0_backward_1_1",
+      "layer_id": 0,
+      "phase": "backward",
+      "op_type": "matmul_transpose_left",
+      "block_row": 1,
+      "block_col": 1,
+      "status": "ok"
+    },
+    {
+      "task_id": "L0_backward_0_0",
+      "layer_id": 0,
+      "phase": "backward",
+      "op_type": "matmul_transpose_right",
+      "block_row": 0,
+      "block_col": 0,
+      "status": "ok"
+    },
+    {
+      "task_id": "L0_backward_1_1",
+      "layer_id": 0,
+      "phase": "backward",
+      "op_type": "matmul_transpose_right",
+      "block_row": 1,
+      "block_col": 1,
+      "status": "ok"
+    },
+    {
+      "task_id": "L0_forward_0_0",
+      "layer_id": 0,
+      "phase": "forward",
+      "op_type": "matmul",
+      "block_row": 0,
+      "block_col": 0,
+      "status": "ok"
+    },
+    {
+      "task_id": "L0_forward_1_1",
+      "layer_id": 0,
+      "phase": "forward",
+      "op_type": "matmul",
+      "block_row": 1,
+      "block_col": 1,
+      "status": "ok"
+    },
+    {
+      "task_id": "L1_forward_1_1",
+      "layer_id": 1,
+      "phase": "forward",
+      "op_type": "matmul",
+      "block_row": 1,
+      "block_col": 1,
+      "status": "ok"
+    },
+    {
+      "task_id": "L1_forward_0_0",
+      "layer_id": 1,
+      "phase": "forward",
+      "op_type": "matmul",
+      "block_row": 0,
+      "block_col": 0,
+      "status": "ok"
+    },
+    {
+      "task_id": "L2_forward_0_0",
+      "layer_id": 2,
+      "phase": "forward",
+      "op_type": "matmul",
+      "block_row": 0,
+      "block_col": 0,
+      "status": "ok"
+    },
+    {
+      "task_id": "L2_backward_0_0",
+      "layer_id": 2,
+      "phase": "backward",
+      "op_type": "matmul_transpose_left",
+      "block_row": 0,
+      "block_col": 0,
+      "status": "ok"
+    },
+    {
+      "task_id": "L2_backward_0_0",
+      "layer_id": 2,
+      "phase": "backward",
+      "op_type": "matmul_transpose_right",
+      "block_row": 0,
+      "block_col": 0,
+      "status": "ok"
+    },
+    {
+      "task_id": "L2_backward_1_1",
+      "layer_id": 2,
+      "phase": "backward",
+      "op_type": "matmul_transpose_right",
+      "block_row": 1,
+      "block_col": 1,
+      "status": "ok"
+    },
+    {
+      "task_id": "L1_backward_0_0",
+      "layer_id": 1,
+      "phase": "backward",
+      "op_type": "matmul_transpose_left",
+      "block_row": 0,
+      "block_col": 0,
+      "status": "ok"
+    },
+    {
+      "task_id": "L1_backward_1_1",
+      "layer_id": 1,
+      "phase": "backward",
+      "op_type": "matmul_transpose_left",
+      "block_row": 1,
+      "block_col": 1,
+      "status": "ok"
+    },
+    {
+      "task_id": "L1_backward_0_0",
+      "layer_id": 1,
+      "phase": "backward",
+      "op_type": "matmul_transpose_right",
+      "block_row": 0,
+      "block_col": 0,
+      "status": "ok"
+    },
+    {
+      "task_id": "L1_backward_1_1",
+      "layer_id": 1,
+      "phase": "backward",
+      "op_type": "matmul_transpose_right",
+      "block_row": 1,
+      "block_col": 1,
+      "status": "ok"
+    },
+    {
+      "task_id": "L0_backward_1_1",
+      "layer_id": 0,
+      "phase": "backward",
+      "op_type": "matmul_transpose_left",
+      "block_row": 1,
+      "block_col": 1,
+      "status": "ok"
+    },
+    {
+      "task_id": "L0_backward_0_0",
+      "layer_id": 0,
+      "phase": "backward",
+      "op_type": "matmul_transpose_left",
+      "block_row": 0,
+      "block_col": 0,
+      "status": "ok"
+    },
+    {
+      "task_id": "L0_backward_0_0",
+      "layer_id": 0,
+      "phase": "backward",
+      "op_type": "matmul_transpose_right",
+      "block_row": 0,
+      "block_col": 0,
+      "status": "ok"
+    },
+    {
+      "task_id": "L0_backward_1_1",
+      "layer_id": 0,
+      "phase": "backward",
+      "op_type": "matmul_transpose_right",
+      "block_row": 1,
+      "block_col": 1,
+      "status": "ok"
+    },
+    {
+      "task_id": "L0_forward_0_0",
+      "layer_id": 0,
+      "phase": "forward",
+      "op_type": "matmul",
+      "block_row": 0,
+      "block_col": 0,
+      "status": "ok"
+    },
+    {
+      "task_id": "L0_forward_1_1",
+      "layer_id": 0,
+      "phase": "forward",
+      "op_type": "matmul",
+      "block_row": 1,
+      "block_col": 1,
+      "status": "ok"
+    },
+    {
+      "task_id": "L1_forward_0_0",
+      "layer_id": 1,
+      "phase": "forward",
+      "op_type": "matmul",
+      "block_row": 0,
+      "block_col": 0,
+      "status": "ok"
+    },
+    {
+      "task_id": "L1_forward_1_1",
+      "layer_id": 1,
+      "phase": "forward",
+      "op_type": "matmul",
+      "block_row": 1,
+      "block_col": 1,
+      "status": "ok"
+    },
+    {
+      "task_id": "L2_forward_0_0",
+      "layer_id": 2,
+      "phase": "forward",
+      "op_type": "matmul",
+      "block_row": 0,
+      "block_col": 0,
+      "status": "ok"
+    },
+    {
+      "task_id": "L2_backward_0_0",
+      "layer_id": 2,
+      "phase": "backward",
+      "op_type": "matmul_transpose_left",
+      "block_row": 0,
+      "block_col": 0,
+      "status": "ok"
+    },
+    {
+      "task_id": "L2_backward_0_0",
+      "layer_id": 2,
+      "phase": "backward",
+      "op_type": "matmul_transpose_right",
+      "block_row": 0,
+      "block_col": 0,
+      "status": "ok"
+    },
+    {
+      "task_id": "L2_backward_1_1",
+      "layer_id": 2,
+      "phase": "backward",
+      "op_type": "matmul_transpose_right",
+      "block_row": 1,
+      "block_col": 1,
+      "status": "ok"
+    },
+    {
+      "task_id": "L1_backward_0_0",
+      "layer_id": 1,
+      "phase": "backward",
+      "op_type": "matmul_transpose_left",
+      "block_row": 0,
+      "block_col": 0,
+      "status": "ok"
+    },
+    {
+      "task_id": "L1_backward_1_1",
+      "layer_id": 1,
+      "phase": "backward",
+      "op_type": "matmul_transpose_left",
+      "block_row": 1,
+      "block_col": 1,
+      "status": "ok"
+    },
+    {
+      "task_id": "L1_backward_0_0",
+      "layer_id": 1,
+      "phase": "backward",
+      "op_type": "matmul_transpose_right",
+      "block_row": 0,
+      "block_col": 0,
+      "status": "ok"
+    },
+    {
+      "task_id": "L1_backward_1_1",
+      "layer_id": 1,
+      "phase": "backward",
+      "op_type": "matmul_transpose_right",
+      "block_row": 1,
+      "block_col": 1,
+      "status": "ok"
+    },
+    {
+      "task_id": "L0_backward_0_0",
+      "layer_id": 0,
+      "phase": "backward",
+      "op_type": "matmul_transpose_left",
+      "block_row": 0,
+      "block_col": 0,
+      "status": "ok"
+    },
+    {
+      "task_id": "L0_backward_1_1",
+      "layer_id": 0,
+      "phase": "backward",
+      "op_type": "matmul_transpose_left",
+      "block_row": 1,
+      "block_col": 1,
+      "status": "ok"
+    },
+    {
+      "task_id": "L0_backward_0_0",
+      "layer_id": 0,
+      "phase": "backward",
+      "op_type": "matmul_transpose_right",
+      "block_row": 0,
+      "block_col": 0,
+      "status": "ok"
+    },
+    {
+      "task_id": "L0_backward_1_1",
+      "layer_id": 0,
+      "phase": "backward",
+      "op_type": "matmul_transpose_right",
+      "block_row": 1,
+      "block_col": 1,
+      "status": "ok"
+    },
+    {
+      "task_id": "L0_forward_0_0",
+      "layer_id": 0,
+      "phase": "forward",
+      "op_type": "matmul",
+      "block_row": 0,
+      "block_col": 0,
+      "status": "ok"
+    },
+    {
+      "task_id": "L0_forward_1_1",
+      "layer_id": 0,
+      "phase": "forward",
+      "op_type": "matmul",
+      "block_row": 1,
+      "block_col": 1,
+      "status": "ok"
+    },
+    {
+      "task_id": "L1_forward_0_0",
+      "layer_id": 1,
+      "phase": "forward",
+      "op_type": "matmul",
+      "block_row": 0,
+      "block_col": 0,
+      "status": "ok"
+    },
+    {
+      "task_id": "L1_forward_1_1",
+      "layer_id": 1,
+      "phase": "forward",
+      "op_type": "matmul",
+      "block_row": 1,
+      "block_col": 1,
+      "status": "ok"
+    },
+    {
+      "task_id": "L2_forward_0_0",
+      "layer_id": 2,
+      "phase": "forward",
+      "op_type": "matmul",
+      "block_row": 0,
+      "block_col": 0,
+      "status": "ok"
+    },
+    {
+      "task_id": "L2_backward_0_0",
+      "layer_id": 2,
+      "phase": "backward",
+      "op_type": "matmul_transpose_left",
+      "block_row": 0,
+      "block_col": 0,
+      "status": "ok"
+    },
+    {
+      "task_id": "L2_backward_0_0",
+      "layer_id": 2,
+      "phase": "backward",
+      "op_type": "matmul_transpose_right",
+      "block_row": 0,
+      "block_col": 0,
+      "status": "ok"
+    },
+    {
+      "task_id": "L2_backward_1_1",
+      "layer_id": 2,
+      "phase": "backward",
+      "op_type": "matmul_transpose_right",
+      "block_row": 1,
+      "block_col": 1,
+      "status": "ok"
+    },
+    {
+      "task_id": "L1_backward_0_0",
+      "layer_id": 1,
+      "phase": "backward",
+      "op_type": "matmul_transpose_left",
+      "block_row": 0,
+      "block_col": 0,
+      "status": "ok"
+    },
+    {
+      "task_id": "L1_backward_1_1",
+      "layer_id": 1,
+      "phase": "backward",
+      "op_type": "matmul_transpose_left",
+      "block_row": 1,
+      "block_col": 1,
+      "status": "ok"
+    },
+    {
+      "task_id": "L1_backward_0_0",
+      "layer_id": 1,
+      "phase": "backward",
+      "op_type": "matmul_transpose_right",
+      "block_row": 0,
+      "block_col": 0,
+      "status": "ok"
+    },
+    {
+      "task_id": "L1_backward_1_1",
+      "layer_id": 1,
+      "phase": "backward",
+      "op_type": "matmul_transpose_right",
+      "block_row": 1,
+      "block_col": 1,
+      "status": "ok"
+    },
+    {
+      "task_id": "L0_backward_0_0",
+      "layer_id": 0,
+      "phase": "backward",
+      "op_type": "matmul_transpose_left",
+      "block_row": 0,
+      "block_col": 0,
+      "status": "ok"
+    },
+    {
+      "task_id": "L0_backward_1_1",
+      "layer_id": 0,
+      "phase": "backward",
+      "op_type": "matmul_transpose_left",
+      "block_row": 1,
+      "block_col": 1,
+      "status": "ok"
+    },
+    {
+      "task_id": "L0_backward_0_0",
+      "layer_id": 0,
+      "phase": "backward",
+      "op_type": "matmul_transpose_right",
+      "block_row": 0,
+      "block_col": 0,
+      "status": "ok"
+    },
+    {
+      "task_id": "L0_backward_1_1",
+      "layer_id": 0,
+      "phase": "backward",
+      "op_type": "matmul_transpose_right",
+      "block_row": 1,
+      "block_col": 1,
+      "status": "ok"
+    },
+    {
+      "task_id": "L0_forward_0_0",
+      "layer_id": 0,
+      "phase": "forward",
+      "op_type": "matmul",
+      "block_row": 0,
+      "block_col": 0,
+      "status": "ok"
+    },
+    {
+      "task_id": "L0_forward_1_1",
+      "layer_id": 0,
+      "phase": "forward",
+      "op_type": "matmul",
+      "block_row": 1,
+      "block_col": 1,
+      "status": "ok"
+    },
+    {
+      "task_id": "L1_forward_0_0",
+      "layer_id": 1,
+      "phase": "forward",
+      "op_type": "matmul",
+      "block_row": 0,
+      "block_col": 0,
+      "status": "ok"
+    },
+    {
+      "task_id": "L1_forward_1_1",
+      "layer_id": 1,
+      "phase": "forward",
+      "op_type": "matmul",
+      "block_row": 1,
+      "block_col": 1,
+      "status": "ok"
+    },
+    {
+      "task_id": "L2_forward_0_0",
+      "layer_id": 2,
+      "phase": "forward",
+      "op_type": "matmul",
+      "block_row": 0,
+      "block_col": 0,
+      "status": "ok"
+    },
+    {
+      "task_id": "L2_backward_0_0",
+      "layer_id": 2,
+      "phase": "backward",
+      "op_type": "matmul_transpose_left",
+      "block_row": 0,
+      "block_col": 0,
+      "status": "ok"
+    },
+    {
+      "task_id": "L2_backward_0_0",
+      "layer_id": 2,
+      "phase": "backward",
+      "op_type": "matmul_transpose_right",
+      "block_row": 0,
+      "block_col": 0,
+      "status": "ok"
+    },
+    {
+      "task_id": "L2_backward_1_1",
+      "layer_id": 2,
+      "phase": "backward",
+      "op_type": "matmul_transpose_right",
+      "block_row": 1,
+      "block_col": 1,
+      "status": "ok"
+    },
+    {
+      "task_id": "L1_backward_0_0",
+      "layer_id": 1,
+      "phase": "backward",
+      "op_type": "matmul_transpose_left",
+      "block_row": 0,
+      "block_col": 0,
+      "status": "ok"
+    },
+    {
+      "task_id": "L1_backward_1_1",
+      "layer_id": 1,
+      "phase": "backward",
+      "op_type": "matmul_transpose_left",
+      "block_row": 1,
+      "block_col": 1,
+      "status": "ok"
+    },
+    {
+      "task_id": "L1_backward_0_0",
+      "layer_id": 1,
+      "phase": "backward",
+      "op_type": "matmul_transpose_right",
+      "block_row": 0,
+      "block_col": 0,
+      "status": "ok"
+    },
+    {
+      "task_id": "L1_backward_1_1",
+      "layer_id": 1,
+      "phase": "backward",
+      "op_type": "matmul_transpose_right",
+      "block_row": 1,
+      "block_col": 1,
+      "status": "ok"
+    },
+    {
+      "task_id": "L0_backward_0_0",
+      "layer_id": 0,
+      "phase": "backward",
+      "op_type": "matmul_transpose_left",
+      "block_row": 0,
+      "block_col": 0,
+      "status": "ok"
+    },
+    {
+      "task_id": "L0_backward_1_1",
+      "layer_id": 0,
+      "phase": "backward",
+      "op_type": "matmul_transpose_left",
+      "block_row": 1,
+      "block_col": 1,
+      "status": "ok"
+    },
+    {
+      "task_id": "L0_backward_0_0",
+      "layer_id": 0,
+      "phase": "backward",
+      "op_type": "matmul_transpose_right",
+      "block_row": 0,
+      "block_col": 0,
+      "status": "ok"
+    },
+    {
+      "task_id": "L0_backward_1_1",
+      "layer_id": 0,
+      "phase": "backward",
+      "op_type": "matmul_transpose_right",
+      "block_row": 1,
+      "block_col": 1,
+      "status": "ok"
+    }
+  ]
+}
